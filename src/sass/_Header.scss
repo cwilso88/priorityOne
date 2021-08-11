@@ -1,0 +1,36 @@
+header {
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    padding: 50px 100px;
+
+    .logo {
+        display: inline-block;
+        width: 300px;
+        height: 56px;
+        
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+    nav {
+        float: right;
+
+        a {
+            float: right;
+            text-align: right;
+            text-decoration: none;
+            color: $black;
+            font-family: MomCakeBold;
+            font-size: 20px;
+            padding: 0 10px;
+            transition: 0.4s;
+        }
+
+        a:hover {
+            color: $white;
+            opacity: 1;
+        }
+    }
+}

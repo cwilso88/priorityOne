@@ -1,10 +1,16 @@
 #whygethelp {
-  margin: 100px 55px;
+  margin: 100px 65px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
 
   h1 {
-    font-size: 36px;
     font-family: MomCakeBold, sans-serif;
     text-align: center;
+    font-size: 50px;
+  }
+
+  img {
+    margin-top: -60px;
   }
 
   p {
@@ -14,10 +20,23 @@
   .whygethelp_title {
     text-align: center;
     font-family: MomCakeBold;
-    font-size: 25px;
+    font-size: 1.7em;
   }
+
+  .icon {
+    color: $gold;
+    margin-right: 10px;
+  }
+
+  li {
+    font-size: 1.1em;
+    line-height: 2em;
+  }
+
+
   .row {
-      display: flex;      
+      display: flex; 
+      gap: 120px;     
     }
       
   .column {

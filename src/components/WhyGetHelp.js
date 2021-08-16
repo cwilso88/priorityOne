@@ -1,5 +1,4 @@
 import React from 'react'
-import reactDom from 'react-dom'
 import line_1000px from '../logos/line_1000px.png'
 
 class WhyGetHelp extends React.Component {

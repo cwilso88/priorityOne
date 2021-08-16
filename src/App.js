@@ -3,6 +3,7 @@ import Topimg from '../src/components/Topimg'
 import Header from './components/Header'
 import Servicesbar from './components/Servicesbar'
 import EndUserSupport from './components/EndUserSupport'
+import WhyGetHelp from './components/WhyGetHelp'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Topimg />
       <Servicesbar />
+      <WhyGetHelp />
       <EndUserSupport />
     </div>
   );

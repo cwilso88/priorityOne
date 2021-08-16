@@ -1,9 +1,26 @@
 #whygethelp {
-    .row {
-        display: flex;
-      }
+  margin: 100px 55px;
+
+  h1 {
+    font-size: 36px;
+    font-family: MomCakeBold, sans-serif;
+    text-align: center;
+  }
+
+  p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+  }
+  .whygethelp_title {
+    text-align: center;
+    font-family: MomCakeBold;
+    font-size: 25px;
+  }
+  .row {
+      display: flex;      
+    }
       
-      .column {
-        flex: 50%;
-      }
+  .column {
+      flex: 50%;
+    }
 }

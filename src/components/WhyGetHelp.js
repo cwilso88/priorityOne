@@ -1,12 +1,16 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheckCircle } from '@fortawesome/free-regular-svg-icons';
 import line_1000px from '../logos/line_1000px.png'
+
+
 
 class WhyGetHelp extends React.Component {
     render() {
         return(
-            <section id="why_get_help">
-                <div className="why_get_help_header">
-                    <h1>Focus on Business Issues Instead of User Issues</h1>
+            <section id="whygethelp">
+                <div className="whygethelp_header">
+                    <h1 className="whygethelp_title">Focus on Business Issues Instead of User Issues</h1>
                     <img src={line_1000px} alt="Gold underline" />
 
                     <p>
@@ -18,15 +22,15 @@ class WhyGetHelp extends React.Component {
                 <br />
 
 
-                <div className="why_get_help_checklist">
-                    <h2>Do you face any of these challenges?</h2>
+                <div className="whygethelp_checklist">
+                    <h2 className="whygethelp_title">Do you face any of these challenges?</h2>
                     <br />
-
-                    <div className="why_get_help_checklist_container row">
+                    
+                    <div className="whygethelp_checklist_container row">
                         <ul className="column">
-                            <li><i class="far fa-check-circle"></i>Does your IT staff get bogged down fixing employee issues?</li>
-                            <li><i class="far fa-check-circle"></i>Are members of your IT staff pulled off important company initiatives to deal with user complaints?</li>
-                            <li><i class="far fa-check-circle"></i>Are your users dissatisfied with response times from the IT team?</li>
+                            <li>Does your IT staff get bogged down fixing employee issues?</li>
+                            <li><FontAwesomeIcon icon={ faCheckCircle } />Are members of your IT staff pulled off important company initiatives to deal with user complaints?</li>
+                            <li><FontAwesomeIcon icon="fa-regular fa-circle-check" />Are your users dissatisfied with response times from the IT team?</li>
                         </ul>
                         <ul className="column">
                             <li><i class="far fa-check-circle"></i>Are your IT costs escalating?</li>

@@ -28,14 +28,14 @@ class WhyGetHelp extends React.Component {
                     
                     <div className="whygethelp_checklist_container row">
                         <ul className="column">
-                            <li><FontAwesomeIcon icon={ faCheckCircle } />Does your IT staff get bogged down fixing employee issues?</li>
-                            <li><FontAwesomeIcon icon={ faCheckCircle } />Are members of your IT staff pulled off important company initiatives to deal with user complaints?</li>
-                            <li><FontAwesomeIcon icon={ faCheckCircle } />Are your users dissatisfied with response times from the IT team?</li>
+                            <li><FontAwesomeIcon className="icon" icon={ faCheckCircle } />Does your IT staff get bogged down fixing employee issues?</li>
+                            <li><FontAwesomeIcon className="icon" icon={ faCheckCircle } />Are members of your IT staff pulled off important company initiatives to deal with user complaints?</li>
+                            <li><FontAwesomeIcon className="icon" icon={ faCheckCircle } />Are your users dissatisfied with response times from the IT team?</li>
                         </ul>
                         <ul className="column">
-                            <li><FontAwesomeIcon icon={ faCheckCircle } />Are your IT costs escalating?</li>
-                            <li><FontAwesomeIcon icon={ faCheckCircle } />Is your IT staff stretched too thin?</li>
-                            <li><FontAwesomeIcon icon={ faCheckCircle } />Are outages and slow networks hampering your employee’s productivity?</li>
+                            <li><FontAwesomeIcon className="icon" icon={ faCheckCircle } />Are your IT costs escalating?</li>
+                            <li><FontAwesomeIcon className="icon" icon={ faCheckCircle } />Is your IT staff stretched too thin?</li>
+                            <li><FontAwesomeIcon className="icon" icon={ faCheckCircle } />Are outages and slow networks hampering your employee’s productivity?</li>
                         </ul>
                     </div>
                 </div>

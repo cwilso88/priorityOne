@@ -2,7 +2,7 @@ import './sass/main.scss'
 import Topimg from '../src/components/Topimg'
 import Header from './components/Header'
 import Servicesbar from './components/Servicesbar'
-import Footer from './components/Footer'
+import EndUserSupport from './components/EndUserSupport'
 
 function App() {
   return (
@@ -10,8 +10,7 @@ function App() {
       <Header />
       <Topimg />
       <Servicesbar />
-      <Footer />
-
+      <EndUserSupport />
     </div>
   );
 }

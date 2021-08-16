@@ -1,0 +1,11 @@
+#whypriorityone {
+    .row {
+        display: flex;
+    }
+    .column_text {
+        flex: 60%;
+    }
+    .column_image {
+        flex: 40%;
+    }
+}

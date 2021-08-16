@@ -2,13 +2,13 @@
     background: black;
     position: relative;
     max-height: 500px;
+    padding: 20%;
     background: linear-gradient(135deg, rgba(10, 10, 10, 0.2) 0,#000 90%);
     background-image: linear-gradient(135deg, rgba(0,0,0,.1) 0,rgb(5, 5, 5) 100%), url('https://tcfcr.com/wp-content/uploads/call-center-competitive-weapon.jpg');
     background-position: center;
     background-size: cover;
 
     .container {
-        padding: 20%;
         display: flex;
         align-items: center;
         justify-content: center;

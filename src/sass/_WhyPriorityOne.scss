@@ -1,15 +1,16 @@
 #whypriorityone {
     background-color: $deep-blue;
     color: white;
-    height: 750px;
+    height: 850px;
     padding: 100px;
+    position: relative;
 
     .row {
         display: flex;
         gap: 50px;
     }
     .column_text {
-        flex: 60%;
+        flex: 50%;
 
         h1 {
           font-size: 2em; 
@@ -20,13 +21,28 @@
         }
         p {
           line-height: 1.5em;
+          font-size: 18px;
         }
     }
     .column_image {
-        flex: 40%;
+        flex: 50%;
+        img {
+            max-width: 100%;
+            height: auto;
+        }
     }
-    img {
-        width: 100%;
-        height: auto;
-    }
+    
+}
+
+#whypriorityone::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-style: solid;
+	border-color: transparent;
+	border-width: 10vh 50vw;
+	border-bottom-color: white;
+	border-right-color: white;
 }

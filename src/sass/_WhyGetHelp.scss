@@ -1,7 +1,10 @@
 #whygethelp {
-  margin: 100px 65px;
+  margin: 100px 65px 0 65px;
+  height: 750px;
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
+  position: relative;
+  
 
   h1 {
     font-family: MomCakeBold, sans-serif;
@@ -46,4 +49,17 @@
   .column {
       flex: 50%;
     }
+}
+
+#whygethelp::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-style: solid;
+	border-color: transparent;
+	border-width: 10vh 47.75vw;
+	border-bottom-color: $deep-blue;
+	border-right-color: $deep-blue;
 }

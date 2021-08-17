@@ -1,12 +1,32 @@
 #whypriorityone {
     background-color: $deep-blue;
+    color: white;
+    height: 750px;
+    padding: 100px;
+
     .row {
         display: flex;
+        gap: 50px;
     }
     .column_text {
         flex: 60%;
+
+        h1 {
+          font-size: 2em; 
+          text-align: center;
+        }
+        img {
+            margin-top: -20px;
+        }
+        p {
+          line-height: 1.5em;
+        }
     }
     .column_image {
         flex: 40%;
+    }
+    img {
+        width: 100%;
+        height: auto;
     }
 }

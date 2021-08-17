@@ -4,6 +4,7 @@ import Header from './components/Header'
 import EndUserSupport from './components/EndUserSupport'
 import WhyGetHelp from './components/WhyGetHelp'
 import WhyPriorityOne from './components/WhyPriorityOne'
+import Services from '../src/components/Services'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <WhyGetHelp />
       <WhyPriorityOne />
       <EndUserSupport />
+      <Services />
       
     </div>
   );

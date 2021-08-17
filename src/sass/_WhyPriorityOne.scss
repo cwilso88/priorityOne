@@ -2,8 +2,9 @@
     background-color: $deep-blue;
     color: white;
     height: 850px;
-    padding: 100px;
+    padding: 100px 0 100px 50px;
     position: relative;
+    overflow-x: hidden;
 
     .row {
         display: flex;

@@ -1,11 +1,11 @@
 #whypriorityone {
     background-color: $deep-blue;
+    font-family: 'Roboto', sans-serif;
     color: white;
     height: 850px;
     padding: 100px 0 100px 50px;
     position: relative;
-    overflow-x: hidden;
-
+    
     .row {
         display: flex;
         gap: 50px;

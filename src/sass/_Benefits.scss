@@ -1,29 +1,46 @@
 #benefits {
     padding: 100px;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.2em;
+    
     .benefits_title {
         text-align: center;
+        font-size: 1.2em;
         h1 {
             font-family: MomCakeBold;
             font-size: 2em;
         }
     }
+    img {
+        margin-top: -40px;
+        width: 40%;
+    }
+
+    h3 {
+        font-family: MomCakeBold;
+        font-size: 1.5em;
+    }
     .icon {
         color: $gold;
         background-color: $gray;
-        font-size: 4em;
+        font-size: 5em;
         padding: 15px;
         
 
       }
-    .row {
+    .benefits_row {
         display: flex;
         gap: 5%;
         padding-top: 5%;
     }
-    .benefits_item_column {
+    .benefits_column {
         flex: 33%;
-        padding: 10px;
+        padding: 2px;
+    }
+    .benefits_item_row {
+        display: flex;
+        gap: 10%;
+    }
+    .benefits_item_column {
+        flex: 30%, 70%;
     }
 }

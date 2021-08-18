@@ -1,4 +1,5 @@
 import React from 'react'
+import line_600px from '../logos/line_600px.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChartLine } from '@fortawesome/free-solid-svg-icons'
 import { faSmile, faThumbsUp } from '@fortawesome/free-regular-svg-icons'
@@ -10,6 +11,7 @@ class Benefits extends React.Component {
             <section id="benefits">
                 <div className="benefits_title">
                     <h1>Benefits</h1>
+                    <img src={line_600px} alt="Gold underline" />
                     <p>When you outsource your IT help desk services to Corserva, you gain these benefits:</p>
                 </div>
                 <br />

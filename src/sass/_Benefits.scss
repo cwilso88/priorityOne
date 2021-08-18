@@ -12,6 +12,8 @@
     .icon {
         color: $gold;
         background-color: $gray;
+        font-size: 4em;
+        padding: 15px;
         
 
       }
@@ -20,7 +22,8 @@
         gap: 5%;
         padding-top: 5%;
     }
-    .column {
-        flex: 33.33%;
+    .benefits_item_column {
+        flex: 33%;
+        padding: 10px;
     }
 }

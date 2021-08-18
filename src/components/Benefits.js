@@ -16,7 +16,7 @@ class Benefits extends React.Component {
                 <div className="benefits_list benefits_row">
                     <div className="benefits_item benefits_column benefits_item_row">
                         <div className="benefits_item_column">
-                            <FontAwesomeIcon icon={ faChartLine } />
+                            <FontAwesomeIcon className="icon" icon={ faChartLine } />
                         </div>
                         <div className="benefits_item_column">
                             <h3>Greater Efficiency</h3>
@@ -25,7 +25,7 @@ class Benefits extends React.Component {
                     </div>
                     <div className="benefits_item benefits_column benefits_item_row">
                         <div className="benefits_item_column">
-                            <FontAwesomeIcon icon={ faSmile } />
+                            <FontAwesomeIcon className="icon" icon={ faSmile } />
                         </div>
                         <div className="benefits_item_column">
                             <h3>Satisfied Users</h3>
@@ -34,7 +34,7 @@ class Benefits extends React.Component {
                     </div>
                     <div className="benefits_item benefits_column benefits_item_row">
                         <div className="benefits_item_column">
-                            <FontAwesomeIcon icon={ faThumbsUp } />
+                            <FontAwesomeIcon className="icon" icon={ faThumbsUp } />
                         </div>
                         <div className="benefits_item_column">
                             <h3>Happier IT Staff</h3>

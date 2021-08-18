@@ -1,5 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheckCircle } from '@fortawesome/free-regular-svg-icons';
 import helpdesk_guy from '../logos/helpdesk_guy.jpg'
 import ITteam from '../logos/ITteam.jpg'
 
@@ -14,11 +15,11 @@ class Features extends React.Component {
                 <div div className="row">
                     <div className="features_checklist column">
                         <ul>
-                            <li><FontAwesomeIcon icon="fa-regular fa-circle-check" />Incident and service request management while applying proper classification and prioritization codes</li>
-                            <li><FontAwesomeIcon icon="fa-regular fa-circle-check" />Support for desktops, laptops, mobile devices, servers, storage, network devices and more</li>
-                            <li><FontAwesomeIcon icon="fa-regular fa-circle-check" />Support for Windows, Mac, and Linux operating systems</li>
-                            <li><FontAwesomeIcon icon="fa-regular fa-circle-check" />Service asset and configuration management, knowledge management and change management</li>
-                            <li><FontAwesomeIcon icon="fa-regular fa-circle-check" />Guaranteed service levels via SLAs</li>
+                            <li><FontAwesomeIcon className="icon" icon={ faCheckCircle } />Incident and service request management while applying proper classification and prioritization codes</li>
+                            <li><FontAwesomeIcon className="icon" icon={ faCheckCircle } />Support for desktops, laptops, mobile devices, servers, storage, network devices and more</li>
+                            <li><FontAwesomeIcon className="icon" icon={ faCheckCircle } />Support for Windows, Mac, and Linux operating systems</li>
+                            <li><FontAwesomeIcon className="icon" icon={ faCheckCircle } />Service asset and configuration management, knowledge management and change management</li>
+                            <li><FontAwesomeIcon className="icon" icon={ faCheckCircle } />Guaranteed service levels via SLAs</li>
                         </ul>
                     </div>
 
@@ -35,9 +36,9 @@ class Features extends React.Component {
 
                     <div className="features_checklist column">
                         <ul>
-                            <li><FontAwesomeIcon icon="fa-regular fa-circle-check" />Incident and service request management while applying proper classification and prioritization codes</li>
-                            <li><FontAwesomeIcon icon="fa-regular fa-circle-check" />Support for desktops, laptops, mobile devices, servers, storage, network devices and more</li>
-                            <li><FontAwesomeIcon icon="fa-regular fa-circle-check" />Support for Windows, Mac, and Linux operating systems</li>
+                            <li><FontAwesomeIcon className="icon" icon={ faCheckCircle } />Incident and service request management while applying proper classification and prioritization codes</li>
+                            <li><FontAwesomeIcon className="icon" icon={ faCheckCircle } />Support for desktops, laptops, mobile devices, servers, storage, network devices and more</li>
+                            <li><FontAwesomeIcon className="icon" icon={ faCheckCircle } />Support for Windows, Mac, and Linux operating systems</li>
                         </ul>
                     </div>
                 </div>

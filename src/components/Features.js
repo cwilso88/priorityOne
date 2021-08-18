@@ -36,7 +36,7 @@ class Features extends React.Component {
 
                     <div className="features_checklist column">
                         <ul>
-                            <li><FontAwesomeIcon className="icon" icon={ faCheckCircle } />Incident and service request management while applying proper classification and prioritization codes</li>
+                            <li><span><FontAwesomeIcon className="icon" icon={ faCheckCircle } /></span>Incident and service request management while applying proper classification and prioritization codes</li>
                             <li><FontAwesomeIcon className="icon" icon={ faCheckCircle } />Support for desktops, laptops, mobile devices, servers, storage, network devices and more</li>
                             <li><FontAwesomeIcon className="icon" icon={ faCheckCircle } />Support for Windows, Mac, and Linux operating systems</li>
                         </ul>

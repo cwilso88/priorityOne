@@ -2,6 +2,7 @@
     background-color: $gray;
     padding: 100px;
     font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
     .features_title {
         text-align: center;
         h1 {
@@ -17,6 +18,9 @@
         display: flex;
         gap: 5%;
         padding-top: 5%;
+    }
+    li {
+        padding-bottom: 5px;
     }
     .column {
         flex: 50%;

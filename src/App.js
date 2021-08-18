@@ -1,12 +1,12 @@
 import './sass/main.scss'
 import Topimg from '../src/components/Topimg'
 import Header from './components/Header'
-import EndUserSupport from './components/EndUserSupport'
 import WhyGetHelp from './components/WhyGetHelp'
 import WhyPriorityOne from './components/WhyPriorityOne'
 import Services from '../src/components/Services'
 import Features from '../src/components/Features'
 import Benefits from '../src/components/Benefits'
+import Footer from '../src/components/Footer'
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       <Services />
       <Features />
       <Benefits />
-      <EndUserSupport />
+      <Footer />
     </div>
   );
 }

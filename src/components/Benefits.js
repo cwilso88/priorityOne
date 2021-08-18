@@ -1,5 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChartLine, faceSmile, thumbsUp} from '@fortawesome/free-solid-svg-icons'
 
 class Benefits extends React.Component {
     render() {
@@ -13,7 +14,7 @@ class Benefits extends React.Component {
                 <div className="benefits_list benefits_row">
                     <div className="benefits_item benefits_column benefits_item_row">
                         <div className="benefits_item_column">
-                            <FontAwesomeIcon icon="fa-regular fa-chart-line-up" />
+                            <FontAwesomeIcon icon={ faChartLine } />
                         </div>
                         <div className="benefits_item_column">
                             <h3>Greater Efficiency</h3>

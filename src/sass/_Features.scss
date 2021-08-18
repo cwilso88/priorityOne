@@ -2,7 +2,7 @@
     background-color: $gray;
     padding: 100px;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
     .features_title {
         text-align: center;
         h1 {
@@ -14,6 +14,11 @@
         color: $gold;
         margin-right: 10px;
       }
+    img {
+        width: 100%;
+        height: auto;
+        
+    }
     .row {
         display: flex;
         gap: 5%;

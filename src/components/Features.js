@@ -1,5 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import helpdesk_guy from '../logos/helpdesk_guy.jpg'
 
 class Features extends React.Component {
     render() {
@@ -21,7 +22,7 @@ class Features extends React.Component {
                     </div>
 
                     <div className="features_image column">
-                        <img src="" alt="professional man" />
+                        <img src={helpdesk_guy} alt="professional man" />
                     </div>
                 </div> 
 

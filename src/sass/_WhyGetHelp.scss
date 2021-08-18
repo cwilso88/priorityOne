@@ -1,5 +1,5 @@
 #whygethelp {
-  margin: 100px 65px 0 65px;
+  padding: 100px;
   height: 750px;
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
@@ -54,7 +54,7 @@
 #whygethelp::after {
 	content: "";
 	position: absolute;
-	left: 0;
+	left: auto;
 	right: 0;
 	bottom: 0;
 	border-style: solid;

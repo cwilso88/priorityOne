@@ -5,6 +5,7 @@ import EndUserSupport from './components/EndUserSupport'
 import WhyGetHelp from './components/WhyGetHelp'
 import WhyPriorityOne from './components/WhyPriorityOne'
 import Services from '../src/components/Services'
+import Features from '../src/components/Features'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <WhyGetHelp />
       <WhyPriorityOne />
       <Services />
+      <Features />
       <EndUserSupport />
     </div>
   );

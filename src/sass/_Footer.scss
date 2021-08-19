@@ -1,3 +1,9 @@
-#Footer {
+#footer_menu {
     background-color: $deep-blue;
+    .row {
+        display: flex;
+    }
+    .column {
+        flex: 33%;
+    }
 }

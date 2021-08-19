@@ -6,7 +6,7 @@ import WhyPriorityOne from './components/WhyPriorityOne'
 import Services from '../src/components/Services'
 import Features from '../src/components/Features'
 import Benefits from '../src/components/Benefits'
-import Footer from '../src/components/Footer'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       <Services />
       <Features />
       <Benefits />
-      <Footer />
+      <Footer /> 
     </div>
   );
 }

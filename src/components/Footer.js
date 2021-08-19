@@ -3,9 +3,9 @@ import React from 'react'
 class Footer extends React.Component {
     render() {
         return (
-            <Footer>
-                <div className="row footer_menu">
-                    <div className="footer_column footer_contact">
+            <footer id="footer_menu">
+                <div className="row">
+                    <div className="column footer_contact">
                         <h2>Contact</h2>
                         <br />
                         <address>
@@ -14,7 +14,7 @@ class Footer extends React.Component {
                         </address>
                         <a href="tel:123-456-7890">123-456-7890</a>
                     </div>
-                    <div className="footer_column footer_services">
+                    <div className="column footer_services">
                         <h2>Our Services</h2>
                         <br />
                         <ul>
@@ -24,7 +24,7 @@ class Footer extends React.Component {
                             <li>Cloud Services</li>
                         </ul>
                     </div>
-                    <div className="footer_column footer_hours">
+                    <div className="column footer_hours">
                         <h2>Hours</h2>
                         <br />
                         <ul>
@@ -39,7 +39,7 @@ class Footer extends React.Component {
                         <p>Copyright ©2021 Priority One Help Desk Solutions. All Rights Reserved.</p>
                     </div>
                 </div>
-            </Footer>
+            </footer>
         )
     }
 }

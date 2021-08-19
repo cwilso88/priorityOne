@@ -1,8 +1,14 @@
 #contactus {
-    .row {
-        display: flex;
+    padding: 100px;
+    font-family: 'Roboto', sans-serif;
+    h1 {
+        font-family: MomCakeBold;
     }
-    .column {
-        flex: 50%;
+    .form_row {
+        display: flex;
+        gap: 20%;
+    }
+    .form_column {
+        flex: 20%;
     }
 }

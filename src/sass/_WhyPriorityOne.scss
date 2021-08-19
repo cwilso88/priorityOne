@@ -10,9 +10,10 @@
         display: flex;
         gap: 50px;
     }
-    .column_text {
+    .column {
         flex: 50%;
-
+    }
+    .column_text {
         h1 {
           font-size: 2em; 
           text-align: center;
@@ -26,7 +27,6 @@
         }
     }
     .column_image {
-        flex: 50%;
         img {
             max-width: 100%;
             height: auto;

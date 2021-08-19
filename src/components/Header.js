@@ -11,10 +11,10 @@ class Header extends React.Component {
                     <img src={ logo } alt="priority1"/>
                 </div>
                 <nav>
-                    <a href="#">Services</a>
-                    <a href="#">Why PriorityOne</a>
+                    <a href="#services">Services</a>
+                    <a href="#whypriorityone">Why PriorityOne</a>
                     <a href="#">Industries Served</a>
-                    <a href="#">Location</a>
+                    <a href="#footer_menu">Location</a>
                     <a href="#">Contact Us</a>
                 </nav>
             </header>

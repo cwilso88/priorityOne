@@ -13,9 +13,17 @@ class ContactUs extends React.Component {
                     <p>Submit this form and let us know the best way to reach you, or contact us directly below.</p>
                 </article>
                 <Form className="column">
-                    <Form.Group controlId="formName">
+                    <Form.Group controlId="form.Name">
                         <Form.Label>Name</Form.Label>
                         <Form.Control type="text" placeholder="Enter Name" />
+                    </Form.Group>
+                    <Form.Group controlId="form.Email">
+                        <Form.Label>Email Address</Form.Label>
+                        <Form.Control type="email" placeholder="name@example.com" />
+                    </Form.Group>
+                    <Form.Group controlId="form.Textarea">
+                        <Form.Label>Message</Form.Label>
+                        <Form.Control as="textarea" rows={10} />
                     </Form.Group>
                 </Form>
             </Container>

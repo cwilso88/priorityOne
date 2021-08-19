@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../logos/longlogosmall.png'
+import gold_line from '../logos/line_1000px.png'
 
 class Footer extends React.Component {
     render() {
@@ -47,6 +48,9 @@ class Footer extends React.Component {
                             <li>Sunday: Closed</li>
                         </ul>
                     </div>
+                </div>
+                <div className="goldline">
+                    <img src={ gold_line } alt="gold line" />
                 </div>
                 <p className="copyright">Copyright ©2021 Priority One Help Desk Solutions. All Rights Reserved.</p>
             </footer>

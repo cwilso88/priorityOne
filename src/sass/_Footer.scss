@@ -39,14 +39,17 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
-            margin-bottom: -20%;
+            margin-bottom: -7%;
         }
     }
     .social_media_icons {
         display: inline-block;
+        margin-left: 7%;
+        margin-top: 7%;
         img {
             max-width: 10%;
             height: auto;
+            padding: 15px;   
         }
     }
 

@@ -13,7 +13,7 @@ class Header extends React.Component {
                 <nav>
                     <a href="#services">Services</a>
                     <a href="#whypriorityone">Why PriorityOne</a>
-                    <a href="#">Industries Served</a>
+                    <a href="#features">IT Support</a>
                     <a href="#footer_menu">Location</a>
                     <a href="#">Contact Us</a>
                 </nav>

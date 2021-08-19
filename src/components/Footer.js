@@ -52,15 +52,18 @@ class Footer extends React.Component {
                         </ul>
                     </div>
                 </div>
-                <div className="goldline">
-                    <img src={ gold_line } alt="gold line" />
+                
+                <div className="footer_bottom">
+                    <div className="social_media_icons">             
+                        <img src={ facebook } alt="facebook" />   
+                        <img src={ youtube } alt="youtube" /> 
+                        <img src={ pinterest } alt="pintrest" />
+                    </div>
+                    <div className="goldline">
+                        <img src={ gold_line } alt="gold line" />
+                    </div>
+                    <p className="copyright">Copyright ©2021 Priority One Help Desk Solutions. All Rights Reserved.</p>
                 </div>
-                <div className="social_media_icons">             
-                    <img src={ facebook } alt="facebook" />   
-                    <img src={ youtube } alt="youtube" /> 
-                    <img src={ pinterest } alt="pintrest" />
-                </div>
-                <p className="copyright">Copyright ©2021 Priority One Help Desk Solutions. All Rights Reserved.</p>
             </footer>
         )
     }

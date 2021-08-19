@@ -12,7 +12,7 @@ class Benefits extends React.Component {
                 <div className="benefits_title">
                     <h1>Benefits</h1>
                     <img src={line_600px} alt="Gold underline" />
-                    <p>When you outsource your IT help desk services to Corserva, you gain these benefits:</p>
+                    <p>When you outsource your IT help desk services to Priority One, you gain these benefits:</p>
                 </div>
                 <br />
                 <div className="benefits_list benefits_row">

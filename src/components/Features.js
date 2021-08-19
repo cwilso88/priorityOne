@@ -10,7 +10,7 @@ class Features extends React.Component {
             <section id="features">
                 <div className="features_title">
                     <h1>Features</h1>
-                    <p>Features of Corserva’s IT help desk support services include:</p>
+                    <p>Features of Priority One’s IT help desk support services include:</p>
                 </div>
                 <div div className="row">
                     <div className="features_checklist column">

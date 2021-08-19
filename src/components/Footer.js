@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../logos/logo_300px.png'
+import logo from '../logos/longlogosmall.png'
 
 class Footer extends React.Component {
     render() {
@@ -10,7 +10,7 @@ class Footer extends React.Component {
                         <div className="logo">
                             <img src={ logo } alt="priority1"/>
                         </div>
-                        <p>
+                        <p className="logo_text">
                             Priority One is a leading provider of managed IT services to enterprise and mid-market accounts.
                         </p>
                     </div>
@@ -21,7 +21,8 @@ class Footer extends React.Component {
                             1000 Peachtree Road NE
                             Atlanta, GA 30309
                         </address>
-                        <a href="tel:123-456-7890">123-456-7890</a>
+                        <br />
+                        <p>123-456-7890</p>
                     </div>
                     <div className="column footer_services">
                         <h2>Our Services</h2>
@@ -45,9 +46,9 @@ class Footer extends React.Component {
                             <li>Saturday: Closed</li>
                             <li>Sunday: Closed</li>
                         </ul>
-                        <p>Copyright ©2021 Priority One Help Desk Solutions. All Rights Reserved.</p>
                     </div>
                 </div>
+                <p className="copyright">Copyright ©2021 Priority One Help Desk Solutions. All Rights Reserved.</p>
             </footer>
         )
     }

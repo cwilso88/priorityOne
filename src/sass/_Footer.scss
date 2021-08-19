@@ -42,7 +42,13 @@
             margin-bottom: -9%;
         }
     }
-
+    .social_media_icons {
+        display: inline-block;
+        img {
+            max-width: 30%;
+            height: auto;
+        }
+    }
 
     .copyright {
         text-align: center;

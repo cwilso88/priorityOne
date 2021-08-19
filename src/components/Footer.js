@@ -1,10 +1,19 @@
 import React from 'react'
+import logo from '../logos/logo_300px.png'
 
 class Footer extends React.Component {
     render() {
         return (
             <footer id="footer_menu">
                 <div className="row">
+                    <div className="column">
+                        <div className="logo">
+                            <img src={ logo } alt="priority1"/>
+                        </div>
+                        <p>
+                            Priority One is a leading provider of managed IT services to enterprise and mid-market accounts.
+                        </p>
+                    </div>
                     <div className="column footer_contact">
                         <h2>Contact</h2>
                         <br />

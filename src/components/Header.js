@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import img from '../logos/longlogosmall.png'
+import logo from '../logos/longlogosmall.png'
 
 
 class Header extends React.Component {
@@ -8,7 +8,7 @@ class Header extends React.Component {
         return (
             <header>
                 <div className="logo">
-                    <img src={img} alt="priority1"/>
+                    <img src={ logo } alt="priority1"/>
                 </div>
                 <nav>
                     <a href="#">Services</a>

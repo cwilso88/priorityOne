@@ -1,9 +1,13 @@
 #footer_menu {
     background-color: $deep-blue;
+    padding: 100px;
+    .logo {
+        background-color: $gray;
+    }
     .row {
         display: flex;
     }
     .column {
-        flex: 33%;
+        flex: 25%;
     }
 }

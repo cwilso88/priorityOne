@@ -1,6 +1,9 @@
 import React from 'react'
 import logo from '../logos/longlogosmall.png'
-import gold_line from '../logos/line_1000px.png'
+import gold_line from '../logos/gold_line1500px.png'
+import facebook from '../logos/social media/facebook.png'
+import pinterest from '../logos/social media/pinterest.png'
+import youtube from '../logos/social media/youtube.png'
 
 class Footer extends React.Component {
     render() {
@@ -51,6 +54,19 @@ class Footer extends React.Component {
                 </div>
                 <div className="goldline">
                     <img src={ gold_line } alt="gold line" />
+                </div>
+                <div className="social_media_icons">
+                    <ul>
+                        <li>
+                            <img src={ facebook } alt="facebook" />
+                        </li>
+                        <li>
+                            <img src={ youtube } alt="youtube" />
+                        </li>
+                        <li>
+                            <img src={ pinterest } alt="pintrest" />
+                        </li>
+                    </ul>
                 </div>
                 <p className="copyright">Copyright ©2021 Priority One Help Desk Solutions. All Rights Reserved.</p>
             </footer>

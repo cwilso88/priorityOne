@@ -19,7 +19,7 @@ class Footer extends React.Component {
                         </p>
                     </div>
                     <div className="column footer_contact">
-                        <h2>Contact</h2>
+                        <h2>Contact Us</h2>
                         <br />
                         <address>
                             1000 Peachtree Road NE

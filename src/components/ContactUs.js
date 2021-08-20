@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 class ContactUs extends React.Component {
     render() {
         return(
-            <Container id="contactus">
+            <div id="contactus">
                 <div className="form_row">
                     <article className="form_column">
                         <h1>Get in Touch</h1>
@@ -41,7 +41,7 @@ class ContactUs extends React.Component {
                         </Button>
                     </Form>
                 </div>
-            </Container>
+            </div>
         )
     }
 }

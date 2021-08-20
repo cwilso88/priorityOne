@@ -1,5 +1,4 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container'
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -34,7 +33,7 @@ class ContactUs extends React.Component {
                         </Form.Group>
                         <Form.Group className="form_group" controlId="form.Textarea">
                             <Form.Label>Message</Form.Label>
-                            <Form.Control as="textarea" rows={7} />
+                            <Form.Control as="textarea" rows={3} />
                         </Form.Group>
                         <Button type="submit" className="submit_button">
                             Submit

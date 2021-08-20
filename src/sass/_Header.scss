@@ -39,5 +39,11 @@ header {
             display: none;
         }
     }
+/* Small devices (landscape tablets, 400px and under) */
+    @media only screen and (max-width: 400px) {
+        .logo {
+            width: 170px;
+         }
+    }
 }
 

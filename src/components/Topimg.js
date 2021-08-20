@@ -7,7 +7,7 @@ class Topimg extends React.Component {
             <div id="topimg">
                 <div className="container">
                     <h1>IT Help Desk Services and Service Desk Support</h1>
-                    <button type="button" className="button">Contact Us</button>
+                    <a href="#contactus" className="button">Contact Us</a>
                 </div>
             </div>
         )

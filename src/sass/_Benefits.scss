@@ -43,4 +43,12 @@
     .benefits_item_column {
         flex: 30%, 70%;
     }
+
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (max-width: 768px) {
+        .benefits_row {
+            display: block;
+        }
+        
+   }
 }

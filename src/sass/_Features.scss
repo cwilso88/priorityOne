@@ -30,4 +30,15 @@
     .column {
         flex: 2;
     }
+
+
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (max-width: 768px) {
+        .column {
+            flex: 100%;
+        }
+        .features_image {
+            display: none;
+        }
+   }
 }

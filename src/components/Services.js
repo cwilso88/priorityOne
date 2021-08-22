@@ -23,7 +23,7 @@ class Services extends React.Component {
                             <img src={business_meeting} alt="business meeting" />
                         </div>
                         <div className="services_top_text column">
-                            <h1>Dedicate Staff to Revenue-generating Activity</h1>
+                            <h1>Dedicate Staff to Focus on Revenue-generating Activity</h1>
                             <br />
                             <p>Business executives at growing organizations frequently find that as their business grows, their information technology staff has less time to support critical business initiatives. When the number of users increases, the IT team becomes stretched to the limit. By outsourcing your end-user help desk, your IT staff can more readily concentrate on revenue-supporting activities.</p>
                         </div>

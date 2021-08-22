@@ -41,8 +41,13 @@ header {
     }
 /* Small devices (landscape tablets, 400px and under) */
     @media only screen and (max-width: 400px) {
+        padding: 10px 20px;
+        height: auto;
         .logo {
             width: 170px;
+            img {
+                margin-right: -45px;
+            }
          }
     }
 }

@@ -51,4 +51,31 @@
         }
         
    }
+   /* Small devices (cellphones, 455px and under) */
+    @media only screen and (max-width: 768px) {
+        padding: 100px 40px;
+        .benefits_title p {
+            display: none;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        .benefits_item_row {
+            display: block;
+            padding-bottom: 50px;
+        }
+        .icon {
+            width: 60%;
+            height: auto;
+        }
+        .benefits_item_column {
+            padding-top: 20px;
+            text-align: center;
+            p {
+                font-size: 1.1em;
+            }
+        }
+        
+   }
 }

@@ -31,13 +31,14 @@
    /* Small Screens (cellphones) */
     @media only screen and (max-width: 455px) {
         padding: 90px 40px;
-        .services_bottom_section {
+        .services_top_section {
             display: none;
         }
-        .services_bottom_image {
-            img {
-                display: none;
+        .services_bottom_section {
+            h1 {
+                text-align: center;
+                font-size: 1.8em;
             }
-        }  
+        }
    }
 }

@@ -19,8 +19,25 @@
 
     @media only screen and (max-width: 600px) {
         img {
-            width: 200px;
-        }
+            width: 250px;
+            height: 175px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+
+        } 
         
+   }
+
+   /* Small Screens (cellphones) */
+    @media only screen and (max-width: 455px) {
+        padding: 90px 40px;
+        .services_bottom_section {
+            display: none;
+        }
+        .services_bottom_image {
+            img {
+                display: none;
+            }
+        }  
    }
 }

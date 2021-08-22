@@ -41,4 +41,11 @@
             display: none;
         }
    }
+    /* Small devices (Cellphones, 455px and up) */
+    @media only screen and (max-width: 455px) {
+        padding: 100px 40px;
+        p {
+            display: none;
+        }
+   }
 }

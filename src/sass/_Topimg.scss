@@ -44,11 +44,15 @@
     @media screen and (max-width: 455px){
         font-size: .6em;
         max-width: 100%;
-        height: auto;
+        height: 500px;
 
         h1 {
-            line-height: .8em;
-            margin-top: 10%;
+            line-height: 1.2em;
+            margin-top: 50%;
+            margin-bottom: 30%;
+        }
+        .container .button {
+            font-size: 1.8em;
         }
     }
 }

@@ -26,7 +26,7 @@ class Footer extends React.Component {
                             Atlanta, GA 30309
                         </address>
                         <br />
-                        <p>123-456-7890</p>
+                        <p>404-456-7890</p>
                     </div>
                     <div className="column footer_services">
                         <h2>Our Services</h2>
